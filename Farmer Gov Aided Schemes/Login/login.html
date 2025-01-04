@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Log in Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h2>Login to Your Account</h2>
+        <br /><br />
+
+        <label for="username"><i class="fa-solid fa-user"></i> Username </label
+        ><br />
+        <input id="username" type="text" placeholder="Enter Your Username" />
+        <br /><br /><br />
+        <label for="password"><i class="fa-solid fa-lock"></i> Password</label
+        ><br />
+        <input
+          id="password"
+          type="text"
+          placeholder="Enter Your Password"
+        /><br />
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox" />
+        </div>
+        <div class="top">
+          <label for="checkbox">Remember Me</label>
+        </div>
+        <a href="">Forgot Your Password?</a><span> or </span>
+        <a href="">Create a New Account</a><br /><br />
+        <button id="login" type="submit">Log In</button>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

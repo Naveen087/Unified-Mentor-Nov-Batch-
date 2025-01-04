@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("/Images/blue.jpg");
+}
+.container {
+  color: rgba(240, 248, 255, 0.685);
+  font-family: "Poppins", serif;
+  padding-top: 40px;
+  height: 500px;
+  width: 500px;
+  border-radius: 14px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.012);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.351);
+}
+label:hover {
+  cursor: pointer;
+  color: rgba(240, 248, 255, 0.985);
+}
+input {
+  margin-top: 10px;
+  border: none;
+  font-family: "Roboto", serif;
+  height: 40px;
+  border-radius: 7px;
+  text-align: center;
+}
+button {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 900;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: hsla(0, 0%, 100%, 0.3);
+  color: rgba(0, 0, 0, 0.7);
+}
+button:active {
+  background-color: hsla(0, 0%, 100%, 0.7);
+  color: rgba(0, 0, 0, 1);
+}
+i {
+  padding-right: 5px;
+}
+.checkbox input {
+  margin-left: -150px;
+}
+.top {
+  margin-top: -38px;
+  margin-bottom: 10px;
+}
+a {
+  color: hsl(208, 100%, 77%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(208, 100%, 100%);
+}
+span {
+  padding: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
